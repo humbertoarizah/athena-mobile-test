@@ -60,7 +60,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Athena App</title>
+        <title>Athena App2</title>
         <meta name="description" content="Mar app" />
         <meta
           name="viewport"
