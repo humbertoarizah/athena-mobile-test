@@ -33,7 +33,7 @@ export default function Home() {
       <CustomHead title="Home" customRoute={"/"} />{" "}
       <form onSubmit={handleSubmit(onSubmit)}>
         <h2 className="font-bold text-2xl mt-5 text-primary px-5">
-          Medical app
+          athena-app
         </h2>
         <FormWrapper btnTitle="Guardar" isLoading={false}>
           <p className="default_title">Information</p>

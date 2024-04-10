@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8' ?>
 <resources>
-    <string name="app_name">medical-app</string>
-    <string name="title_activity_main">medical-app</string>
+    <string name="app_name">athena-app</string>
+    <string name="title_activity_main">athena-app</string>
     <string name="package_name">com.medicalapp.app</string>
     <string name="custom_url_scheme">com.medicalapp.app</string>
 </resources>
