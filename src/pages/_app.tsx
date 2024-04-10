@@ -72,11 +72,11 @@ export default function App({ Component, pageProps }: AppProps) {
         <NonSSRWrapper>
           <Provider>
             <div
-              className={`inline-flex justify-center bg-white flex-col items-center w-full h-[100vh]`}
+              className={`inline-flex justify-center bg-white flex-col items-center w-full h-[100vh] md:w-full`}
             >
               <Drawer />
               {!Capacitor.isNativePlatform() && <BrowserNavBar />}
-              <div className={` w-full h-full max-w-md`}>
+              <div className={` w-full h-full max-w-md md:w-full`}>
                 <Component {...pageProps} />
               </div>
             </div>
