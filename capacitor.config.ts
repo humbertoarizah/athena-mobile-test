@@ -11,7 +11,7 @@ const config: CapacitorConfig = {
     url:
       process.env.NEXT_PUBLIC_ENVIROMENT === "LOCAL"
         ? "http://localhost:3000"
-        : "https://medical-app-pi.vercel.app",
+        : "https://athena-mobile.vercel.app",
     cleartext: true,
   },
 };

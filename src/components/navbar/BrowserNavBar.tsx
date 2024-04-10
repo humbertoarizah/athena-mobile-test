@@ -30,7 +30,7 @@ const BrowserNavBar = () => {
           className="!font-thin !text-xs"
           onClick={() => push("/")}
         >
-          Comenzar
+          Start Now
         </Button>
       </div>
     </div>

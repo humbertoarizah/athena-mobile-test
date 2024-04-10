@@ -5,10 +5,10 @@ const MenuItems = () => {
   const pathname = usePathname();
   return (
     <>
-      <MenuItem currentRoute={pathname!} title={"Inicio"} route={"/"} />
-      <MenuItem currentRoute={pathname!} title={"Medios de pago"} route={"/"} />
-      <MenuItem currentRoute={pathname!} title={"Ordenes"} route={"/"} />
-      <MenuItem currentRoute={pathname!} title={"Solicitudes"} route={"/"} />
+      <MenuItem currentRoute={pathname!} title={"Home"} route={"/"} />
+      <MenuItem currentRoute={pathname!} title={"Payment Methods"} route={"/"} />
+      <MenuItem currentRoute={pathname!} title={"Orders"} route={"/"} />
+      <MenuItem currentRoute={pathname!} title={"Labs"} route={"/"} />
     </>
   );
 };

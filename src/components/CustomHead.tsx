@@ -22,8 +22,8 @@ const CustomHead = ({
   return (
     <div>
       <Head>
-        <title>Medical app</title>
-        <meta name="description" content="Medical app" />
+        <title>Athena Mobile App</title>
+        <meta name="description" content="Athena app" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, viewport-fit=cover"
