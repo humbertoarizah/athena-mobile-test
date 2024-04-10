@@ -32,10 +32,10 @@ export default function Home() {
     <>
       <CustomHead title="Home" customRoute={"/"} />{" "}
       <form onSubmit={handleSubmit(onSubmit)}>
-        <h2 className="font-bold text-2xl mt-5 text-primary px-5">
+        <h2 className="font-bold text-2xl md:mt-12 mt-5 text-primary px-5">
           Athena App
         </h2>
-        <FormWrapper btnTitle="Guardar" isLoading={false}>
+        <FormWrapper btnTitle="Save" isLoading={false}>
           <p className="default_title">Information</p>
           {/* Form */}
 
@@ -96,7 +96,7 @@ export default function Home() {
                     helperText={errors.rol?.message}
                     error={fieldState.error?.message !== undefined}
                   >
-                    {["Administrator", "Customer", "Provider"].map((type) => (
+                    {["Administrator", "Patient", "Provider"].map((type) => (
                       <MenuItem value={type} key={type}>
                         {type}
                       </MenuItem>

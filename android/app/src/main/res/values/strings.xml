@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <resources>
-    <string name="app_name">athena-app</string>
-    <string name="title_activity_main">athena-app</string>
-    <string name="package_name">com.athenaapp.app</string>
-    <string name="custom_url_scheme">com.athenaapp.app</string>
+    <string name="app_name">Athena-app</string>
+    <string name="title_activity_main">Athena-app</string>
+    <string name="package_name">com.athenamobile.app</string>
+    <string name="custom_url_scheme">com.athenamobile.app</string>
 </resources>

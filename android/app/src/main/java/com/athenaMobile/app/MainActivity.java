@@ -1,4 +1,4 @@
-package com.medicalapp.app;
+package com.athenamobile.app;
 
 import com.getcapacitor.BridgeActivity;
 
